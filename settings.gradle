@@ -1,0 +1,2 @@
+rootProject.name='Smart Chef App'
+include ':app'
