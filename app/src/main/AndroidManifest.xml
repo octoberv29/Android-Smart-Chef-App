@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.smartcookapp">
+    package="com.example.android.smartchefapp">
 
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- App Components   -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

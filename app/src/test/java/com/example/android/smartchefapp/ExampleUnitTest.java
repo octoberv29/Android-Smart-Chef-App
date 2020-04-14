@@ -1,4 +1,4 @@
-package com.example.android.smartcookapp;
+package com.example.android.smartchefapp;
 
 import org.junit.Test;
 
