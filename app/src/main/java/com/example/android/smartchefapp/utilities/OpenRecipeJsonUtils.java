@@ -27,7 +27,7 @@ public final class OpenRecipeJsonUtils {
             id = currentRecipe.getLong(ID);
             title = currentRecipe.getString(TITLE);
 
-            parsedRecipeData[i] += " - " + id + " - " + title;
+            parsedRecipeData[i] = title;
         }
         return parsedRecipeData;
     }
